@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="endToEndScenarios.SCN06">
+        <methods>
+          <include name="accrual_NonAccrualSetup_3"/>
+          <include name="receiptPostingSetup_4"/>
+          <include name="accrual_NonAccrualSetup_1"/>
+          <include name="frontendLeaseSetup"/>
+          <include name="accrual_NonAccrualSetup_2"/>
+          <include name="receiptPostingSetup_3"/>
+          <include name="StructuralRestructure"/>
+          <include name="partialPayoff"/>
+          <include name="receiptPostingSetup_2"/>
+          <include name="updates_5"/>
+          <include name="tearDown"/>
+          <include name="receiptPostingSetup_1"/>
+          <include name="customerSetup"/>
+          <include name="updates_1"/>
+          <include name="updates_3"/>
+          <include name="assetSetup"/>
+          <include name="updates_2"/>
+          <include name="updates_4"/>
+          <include name="fullPayoff"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+          <include name="settingUpReport"/>
+          <include name="vendorInvoiceSetup"/>
+        </methods>
+      </class> <!-- endToEndScenarios.SCN06 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
